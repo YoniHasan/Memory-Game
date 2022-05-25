@@ -1,0 +1,35 @@
+
+ 
+#board{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-gap: 5px;
+    box-sizing: border-box;
+    
+    width: 100%;
+    background-color: saddlebrown;
+    padding: 2 px;
+   
+    box-shadow: 20px 3px 8px #000;
+
+}
+article div figure:hover {
+    box-shadow: 10px 8px 20px #000;
+}
+header{
+    color: rgba(27, 45, 43, 0.707);
+}
+.card{
+    background-color: rgba(103, 16, 202, 0.984);
+    color: rgb(162, 236, 3);
+    padding:30px;
+    margin: 50px;
+    cursor:pointer;
+}
+body{
+    background-color: rgb(5, 239, 17);
+}
+/* element.style{
+    color: yellow;
+}
+     */
